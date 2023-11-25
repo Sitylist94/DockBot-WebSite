@@ -1,0 +1,125 @@
+/* Importer des polices d'écritures */
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --iblack: #333333;
+}
+
+body { /* Réinitialisation des propriétés CSS */
+    padding: 0; /* Padding intérieur */
+    margin: 0; /* Marge exterieur */
+    font-family: 'Raleway', Georgia, sans-serif; /* Police d'écriture  */
+    color: var(--iblack);
+    font-size: 1.5rem;
+    background-color: lightgray;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: gray;
+    padding: 10px;
+
+}
+nav h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+nav a { /* Selectionner les liens dans la navigation */
+    color: white; /* Couleur du text */
+    opacity: 0.6;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+#img8fn {
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.container-desc {
+    margin-top: 150px;
+}
+.container-desc h2 {
+    font-size: 45px;
+}
+.container-desc h2, .container-desc p{
+    margin-left: 20rem;
+}
+.container-desc p {
+    font-size: 17px;
+    font-weight: normal;
+}
+.container-desc button[id="btnAddToDiscord"] {
+    background-color: gray;
+	color: #00203f;
+	border: 1px solid #adf0d1;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px 32px;
+	margin-top: 24px;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	border-color: rgba(0, 32, 63, .45);
+	transition: .2s ease-in;
+    margin-left: 20rem;
+}.container-desc button[id="btnAddToDiscord"]:hover {
+    cursor: pointer;
+	background-color: #00203f;
+	color: #adf0d1;
+}
+.container-desc button[id="scrollButton"] {
+    background-color: gray;
+	color: #00203f;
+	border: 1px solid #adf0d1;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px 32px;
+	margin-top: 24px;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	border-color: rgba(0, 32, 63, .45);
+	transition: .2s ease-in;
+}
+.container-desc button[id="scrollButton"]:hover{
+    cursor: pointer;
+    background-color: #00203f;
+    color: #adf0d1;
+    
+}
+
+#linkedIn{
+	text-decoration: none;
+	font-size: 14px;
+	margin: 8px 0 16px;
+	color: #333;
+}
+
+
+#linkedIn{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin: 0 4px;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+border: 1px solid rgba(0, 32, 63, .45);
+}
+
+
+footer {
+    background-color: gray;
+    position:relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: 50px;
+}
